@@ -1,2 +1,2 @@
-web: mainpage.php
+web: index.php
 
