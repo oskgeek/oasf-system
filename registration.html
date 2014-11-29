@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+body
+{
+  width: 800px;   
+  margin: 0 auto; 
+  font-family:Arial;
+  text-align:justify;   
+}
+.select1 {color: #000;
+}
+.select1 {	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+}
+.resgistration {
+	font-family: "Myriad Pro";
+}
+#font {font-size:13px;	
+}
+</style>
+</head>
+
+<body>
+<p><img src="images/logo-rasmi-ump.png" width="93" height="68" alt="ump-logo" /><img src="images/headerpic.gif" width="700" height="126" alt="headerpic" /></p>
+<p class="resgistration">Registration</p>
+<table id="font" border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td><form method="post" action="insert.php"></td>
+  </tr>
+  <tr>
+    <td width="35%" align="right"> *<span class="select1">Email</span></td>
+    <td width="65%"><input name="email" type="text" maxlength="100" size="30" id="EMail" placeholder="john@hotmail.com"/></td>
+  </tr>
+  <div>
+    <tr>
+      <td width="35%" align="right"> *<span class="select1">Password :</span></td>
+      <td width="65%"><input name="password" type="password" maxlength="30" size="30" id="txtpassword" />
+        &nbsp;
+        (at least 6 chars long)
+        <?php
+							
+						?></td>
+    </tr>
+  </div>
+  <tr>
+    <td width="35%" align="right"> *<span class="select1">Full Name</span>: </td>
+    <td width="65%"><input name="name" type="text" maxlength="50" size="30" id="FirstName" placeholder="John Ratzenberger" /></td>
+  </tr>
+  <tr valign="top">
+    <td width="35%" valign="top" align="right"><span class="select1">Username</span></td>
+    <td width="65%" valign="top"><input name="FirstName" type="text" maxlength="50" size="30" id="FirstName2" placeholder="John Ratzenberger" /></td>
+  </tr>
+  <tr>
+    <td width="35%" align="right"> *<span class="select1">Contact Number</span>: </td>
+    <td width="65%"><input name="phoneNo" type="text" maxlength="25" size="30" id="Phone" placeholder="017-4642222"/></td>
+  </tr>
+</table>
+<center><p>
+  <input type="submit" name="submit" id="submit" value="Submit" />
+  <input type="submit" name="cancel" id="cancel" value="Cancel" />
+</p></center>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
